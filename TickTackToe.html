@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TickTackToe</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+	.circleClass{
+		height: 150px;
+		width: 150px;
+		background-color: grey;
+		border-radius: 50%;
+		border: 3px solid black;
+		display: inline-block;
+	}
+</style>
+
+</head>
+<body>
+<div class="container">
+	<center><h1>Welcome To TickTackToe</h1></center>
+	<center><h2>Click on the Box to take your turn.</h2></center>
+	<center><h2 id = "playerMessage">Player 1's Turn</h2></center>
+	
+	<br><br>
+	
+	<center>
+		<div class="circleClass" id="11"></div>
+		<div class="circleClass" id="12"></div>
+		<div class="circleClass" id="13"></div>
+	</center>
+	<center>
+		<div class="circleClass" id="21"></div>
+		<div class="circleClass" id="22"></div>
+		<div class="circleClass" id="23"></div>
+	</center>
+	<center>
+		<div class="circleClass" id="31"></div>
+		<div class="circleClass" id="32"></div>
+		<div class="circleClass" id="33"></div>
+	</center>
+	
+	
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="tttScript.js"></script>
+</body>
+</html>
